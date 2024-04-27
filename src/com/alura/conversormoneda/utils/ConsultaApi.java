@@ -1,5 +1,6 @@
-package com.alura.conversormoneda.data;
+package com.alura.conversormoneda.utils;
 
+import com.alura.conversormoneda.models.DataApi;
 import com.google.gson.Gson;
 
 import java.net.URI;
@@ -33,7 +34,7 @@ public class ConsultaApi {
         this.codeTarget = codeTarget;
     }
 
-    public  DataApi consultaDivisa (String codeBase, String codeTarget){
+    public DataApi consultaDivisa (String codeBase, String codeTarget){
 
             URI direccion = URI.create("https://v6.exchangerate-api.com/v6/be578294e20cbc92066ad4d1/pair/" + codeBase + "/" + codeTarget) ;
 
