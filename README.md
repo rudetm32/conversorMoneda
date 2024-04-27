@@ -26,3 +26,4 @@ No se requiere ninguna configuración adicional para ejecutar este proyecto.
 
 Las contribuciones son bienvenidas.
 
+![Menu](src/imagenes/Badge-Conversor.png)
