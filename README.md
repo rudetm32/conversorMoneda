@@ -1,12 +1,14 @@
 # Conversor de Moneda
 
-Este proyecto es un  conversor de moneda que utiliza una API para obtener tasas de cambio en tiempo real y permite al usuario convertir una cantidad de una moneda a otra. La conversión se realiza utilizando las tasas de cambio proporcionadas por la API.
+Este proyecto es un  conversor de moneda que utilize una API para obtener tasas de cambio en tiempo real y permite al usuario convertir una cantidad de una moneda a otra. La conversión se realiza utilizando las tasas de cambio proporcionadas por la API.
 
 ## Funcionalidades
 
 - Conversión de una moneda base  a otra (por ejemplo, de dólares estadounidenses a euros).
 - Selección de la cantidad a convertir.
 - Visualización del resultado de la conversión.
+
+![Menu](src/imagenes/pantallaMenu.png)
 
 ## Uso
 
@@ -22,5 +24,5 @@ No se requiere ninguna configuración adicional para ejecutar este proyecto.
 
 ## Contribuciones
 
-Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor abre un issue para discutir los cambios propuestos o envía una pull request con tus cambios.
+Las contribuciones son bienvenidas.
 

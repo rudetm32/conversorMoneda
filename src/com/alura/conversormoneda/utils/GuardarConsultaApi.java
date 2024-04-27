@@ -15,8 +15,8 @@ public class GuardarConsultaApi {
                 .create();
 
         File archivo = new File("conversorMoneda.json");
-
         List<DataApi> resultado = new ArrayList<>();
+
         if (archivo.exists()) {
             try
                     (BufferedReader reader = new BufferedReader(new FileReader(archivo))) {

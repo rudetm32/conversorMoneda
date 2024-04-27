@@ -42,10 +42,10 @@ public class ControllerMenu {
                         while (true) {
                             if (scanner.hasNextInt()) {
                                 cantidadAConvertir = scanner.nextInt();
-                                break; // Salir del bucle si se ingresa un entero válido
+                                break;
                             } else {
                                 System.out.println("Por favor, ingrese un número entero válido.");
-                                scanner.next(); // Limpiar el buffer del scanner
+                                scanner.next();
                             }
                         }
 
